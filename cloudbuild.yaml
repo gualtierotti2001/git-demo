@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: |
+    docker build -t grc.io/$PROJECT_ID/gcpcourse .
+images:
+- 'grc.io/$PROJECT_ID/gcpcourse'
