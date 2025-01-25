@@ -4,3 +4,5 @@ steps:
     docker build -t grc.io/$PROJECT_ID/gcpcourse .
 images:
 - 'grc.io/$PROJECT_ID/gcpcourse'
+options:
+  logging: CLOUD_LOGGING_ONLY
